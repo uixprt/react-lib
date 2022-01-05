@@ -35,12 +35,11 @@ export default [
       }),
       terser(),
     ],
-    external: ['react', 'react-dom', /stories.tsx$/],
   },
   {
     input: 'dist/esm/types/index.d.ts',
     output: [{ file: 'dist/index.d.ts', format: 'esm' }],
     plugins: [dts()],
-    external: [/\.scss$/, /stories.tsx$/],
+    external: [/\.scss$/],
   },
 ];

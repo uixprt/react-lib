@@ -13,6 +13,7 @@
     "build": "rollup -c",
     "docs": "build-storybook -o docs",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "format-json": "prettier --write 'package.json'",
     "sb": "start-storybook -p 6006",
     "test": "jest"
   },
@@ -43,6 +44,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "identity-obj-proxy": "^3.0.0",
+    "import-local": "^3.0.3",
     "jest": "^27.4.6",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",

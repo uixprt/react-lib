@@ -1,0 +1,20 @@
+html {
+  --button-font: inherit;
+  --button-font-size: 26px;
+  --button-text-color: #fff;
+  --button-background-color: #0d131e;
+  --button-border: 0;
+  --button-border-radius: 0;
+  --button-padding: 6px;
+}
+
+button {
+  font: var(--button-font);
+  font-size: var(--button-font-size);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border: var(--button-border);
+  border-radius: var(--button-border-radius);
+  padding: var(--button-padding);
+  user-select: none;
+}

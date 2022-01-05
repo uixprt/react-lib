@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+$color-highlight: #3abdd9;
+$bg-faded: #f5f5f5;
+$bg-white: #fff;
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  background-color: $bg-faded;
+  margin: 0;
+}
+
+button {
+  box-sizing: inherit;
+}

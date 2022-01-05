@@ -1,11 +1,31 @@
-.pnp.*
+.idea
+.DS_STORE
+.eslintcache
+*.swp
+*~\
+
+dist
+
+/node_modules
+npm-debug.log
+npm-debug.log*
+package-lock.json
+yarn-error.log*
+
+/reports/*
+coverage
+
+#################################
+# Yarn
+#
+# If using pnp - ignore those
+# https://yarnpkg.com/advanced/qa/#which-files-should-be-gitignored
+#################################
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-dist
-yarn-error.log
-.idea
 
